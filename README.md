@@ -111,13 +111,13 @@ Fisher, R.A.. (1988). Iris. UCI Machine Learning Repository.
 
 ## Prepara the enviroment
 
-- Create a new virtual env as follow:
+- Create a new virtual envroment using conda as follow:
     
-    `python3 -m venv .venv`
+    `conda create --name iris-classifier python=3.10`
 
 - Activate enviroment
     
-    `source .venv/bin/activate`
+    `conda activate iris-classifier`
 
 - Install requiments
     
